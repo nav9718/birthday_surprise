@@ -2,19 +2,19 @@
 export default function VideoGallery() {
     const videos = [
   {
-    src: "/mom_1.mp4",
+    src: "/videos/mom_1.mp4",
     title: "A little memory for you ❤️",
   },
   {
-    src: "/mom_3.mp4",
+    src: "/videos/mom_3.mp4",
     title: "A little memory for you ❤️",
   },
   {
-    src: "/mom_2.mp4",
+    src: "/videos/mom_2.mp4",
     title: "Our special moments 🌹",
   },
   {
-    src: "/mom_4.mp4",
+    src: "/videos/mom_4.mp4",
     title: "Our special moments 🌹",
   },
 ];
