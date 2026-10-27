@@ -2,11 +2,19 @@
 export default function VideoGallery() {
     const videos = [
   {
-    src: "/birthday_1.mp4",
+    src: "/mom_1.mp4",
     title: "A little memory for you ❤️",
   },
   {
-    src: "/birthday_1.mp4",
+    src: "/mom_3.mp4",
+    title: "A little memory for you ❤️",
+  },
+  {
+    src: "/mom_2.mp4",
+    title: "Our special moments 🌹",
+  },
+  {
+    src: "/mom_4.mp4",
     title: "Our special moments 🌹",
   },
 ];
@@ -29,6 +37,8 @@ export default function VideoGallery() {
               playsInline
               preload="metadata"
               aria-label={video.title}
+              autoPlay
+              muted
             >
               <source src={video.src} type="video/mp4" />
               Your browser does not support video playback.

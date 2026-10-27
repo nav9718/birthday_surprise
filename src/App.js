@@ -39,7 +39,7 @@ export default function App() {
     return () => clearInterval(timer);
   }, []);
 
-  return timeLeft.finished ? (
+  return !timeLeft.finished ? (
     <BirthdayCelebration />
   ) : (
     <CountdownPage timeLeft={timeLeft} />
