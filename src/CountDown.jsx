@@ -26,7 +26,7 @@ export default function CountdownPage({ timeLeft }) {
         <div className="little-heart">♡</div>
 
         <h1 className="countdown-title">
-          Someone special's
+          My special's
           <span>Big Day</span>
         </h1>
 
