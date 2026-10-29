@@ -3,9 +3,8 @@ import "./App.css";
 import CountdownPage from "./CountDown";
 import BirthdayCelebration from "./BirthdayCelebration";
 
-// const TARGET_DATE = new Date("2026-11-04T00:00:00+05:30").getTime();
-const TARGET_DATE = new Date("2026-10-29T10:21:00+05:30").getTime();
-console.log(TARGET_DATE)
+const TARGET_DATE = new Date("2026-11-04T00:00:00+05:30").getTime();
+
 
 
 function getTimeLeft() {
