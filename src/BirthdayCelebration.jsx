@@ -45,12 +45,12 @@ export default function BirthdayCelebration() {
           </p>
           <span className="message-signature">With lots of love ♡</span>
         </div>
-
-        <BirthdayCake />
-
-        <a href="#memories" className="memory-button">
+ <a href="#memories" className="memory-button">
           Open Your Little Surprise <span>♡</span>
         </a>
+        <BirthdayCake />
+
+       
       </section>
 
       <VideoGallery />
