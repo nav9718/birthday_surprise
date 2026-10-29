@@ -28,8 +28,8 @@ export default function BirthdayCelebration() {
         </div>
 
         <h1 className="birthday-title">
-          Happy
-          <span>Birthday!</span>
+          Happy Birthday
+          <span>Rozy </span>
         </h1>
 
         <p className="birthday-subtitle">
